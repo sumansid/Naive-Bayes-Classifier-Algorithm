@@ -22,7 +22,7 @@ Sklearn - For train-test split
 
 # Spam Assasin Corpus.
 
-(Corpus)[https://spamassassin.apache.org/old/publiccorpus/]
+[Corpus](https://spamassassin.apache.org/old/publiccorpus/)
 
 ## Firstly : 
 Download the folders from the above link.
