@@ -34,7 +34,7 @@ Install Anaconda Navigator or Run Jupyter on the cloud and upload the .ipynb fil
 
 ## How to pre-process the data ? 
 
-### Run the “Final_CS 0 - Getting email body and cleaning the message”
+#### Run the “Final_CS 0 - Getting email body and cleaning the message”
 This .ipynb file will :
   1. Clean the email body (Stemming, Tokenizing, Removing Stopwords and Punctuations, Removing HTML tags)
 	2. Get the top 4000 most occurring words from the whole dataset. 
@@ -46,7 +46,7 @@ This .ipynb file will :
 
 
 ## How to gather the probability ? 
-###  Run “Final_CS 1 - Loading saved files and training the naive bayes classifier” 
+####  Run “Final_CS 1 - Loading saved files and training the naive bayes classifier” 
 
 
 This file will : 
@@ -60,20 +60,20 @@ This file will :
 
 
 ## How to predict test dataset ? 
-### Run Final_CS 2 - Testing and evaluating the naive bayes classifier.
+#### Run Final_CS 2 - Testing and evaluating the naive bayes classifier.
 
 Using dot product, we are able to run the probability (Gathered from train dataset), to calculate the probability of spam and ham for test dataset. 
 
 
 
 ## How to predict user given email ? 
-### Run Final_CS 3 - Predicting User given email notebook.
+#### Run Final_CS 3 - Predicting User given email notebook.
 
 1. Calling the predict_user_email() function, asks for input of an email.
 2. Upon providing the input, the function passes the email to clean_email_body(email) and returns a filtered email (ie. no stopwords, no html tags, tokenized).
 3. The function then creates an empty dataframe and populates the occurrences of word IDs if the words in the user given email occurs in the top 4000 word dataset.
 4. A dot product is found using the populated dataframe and the probabilities gathered from the train dataset.
-5. The function return “Spam” and “Non-Spam” based on the combined probabilities of each word from the user given email.
+5. The function returns “Spam” and “Non-Spam” based on the combined probabilities of each word from the user given email.
 
 
 ### Sources: 
@@ -83,6 +83,3 @@ http://www.statsoft.com/textbook/naive-bayes-classifier
 https://www.youtube.com/watch?v=z5UQyCESW64
 https://www.youtube.com/watch?v=NFd0ZQk5bR4
 https://developers.google.com/machine-learning/crash-course/classification/true-false-positive-negative
-
-
-
