@@ -3,18 +3,26 @@
 ## Libraries and functions used : 
 
 Pandas - For dataframe and data pre-processing
+
 Numpy - For Arrays (Easy to convert to pandas Dataframe, save as different file types)
+
 Walk (From Os) - To walk through the folder and get filenames, root for each file
- join (From Os) - To Join file paths and root which are given by walk
+
+join (From Os) - To Join file paths and root which are given by walk
+
 BeautifulSoup - To remove HTML tags from the email body
+
 Stopwords - To remove stopwords from the email body
+
 PorterStemmer - To get the stem form of the words in the email body
+
 Word_tokenize - To tokenize the words in order to put them separately in a dataframe
+
 Sklearn - For train-test split
 
 # Spam Assasin Corpus.
 
-https://spamassassin.apache.org/old/publiccorpus/ 
+(Corpus)[https://spamassassin.apache.org/old/publiccorpus/]
 
 ## Firstly : 
 Download the folders from the above link.
